@@ -1,0 +1,47 @@
+{
+  "name": "react-imageview-pre",
+  "version": "0.0.1",
+  "description": "A image viewer built with react",
+  "main": "dist/react-imageview-pre.js",
+  "scripts": {
+    "build": "npm run build:umd & npm run build:umd:min",
+    "build:umd": "webpack",
+    "build:umd:min": "NODE_ENV=production webpack",
+    "dev": "webpack --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react",
+    "imageview"
+  ],
+  "author": "lxy",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-singleton": "^1.3.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0"
+  },
+  "__npminstall_done": "Thu Mar 05 2020 16:14:25 GMT+0800 (GMT+08:00)",
+  "_from": "react-imageview-pre@0.0.1",
+  "_resolved": "https://registry.npm.taobao.org/react-imageview/download/react-imageview-pre-0.0.1.tgz"
+}
